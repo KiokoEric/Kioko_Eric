@@ -1,35 +1,45 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './App.css';
+import Home from './Components/Home/Home';
+import Skills from './Pages/Skills/Skills';
+import Itrack from './Pages/Itrack/Itrack';
+import About from './Components/About/About';
+import Paths from './Components/Paths/Paths';
+import Contact from './Pages/Contact/Contact';
+import EBudget from './Pages/EBudget/EBudget';
+import Educate from './Pages/Educate/Educate';
+import Footer from './Components/Footer/Footer';
+import Header from './Components/Header/Header';
+import Projects from './Pages/Projects/Projects';
+import { Routes, Route } from 'react-router-dom';
+import Better_Health from './Pages/Better_Health/Better_Health';
+import Kitchen_Stories from './Pages/Kitchen_Stories/Kitchen_Stories';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className='App'>
+      <Header />
+      <Home />
+      <div className='flex flex-col items-center gap-5 my-10 px-5 xl:flex-row xl:items-start'>
+        <section className='mb-5 xl:w-1/3'>
+          <About />
+        </section>
+        <section className='xl:w-2/3'>
+          <Paths />
+          <Routes>
+            <Route path='/' element={ <Projects /> } />
+            <Route path='/Itrack' element={ <Itrack /> } />
+            <Route path="/Skills" element={ <Skills /> } />
+            <Route path='/EBudget' element={ <EBudget /> } />
+            <Route path='/Educate' element={ <Educate /> } />
+            <Route path="/Contact" element={ <Contact /> } />
+            <Route path="/Better_Health" element={ <Better_Health /> } />
+            <Route path='/Kitchen_Stories' element={ <Kitchen_Stories /> } />
+          </Routes>
+        </section>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;
