@@ -1,42 +1,60 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+html::-webkit-scrollbar {
+  width: 0.8rem;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+html::-webkit-scrollbar-thumb {
+  background-color:white;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+html::-webkit-scrollbar-track {
+  background-color: black;
 }
-
-.card {
-  padding: 2em;
+body {
+  font-family: 'Instrument Serif', serif;
+  font-size: 18px;
 }
-
-.read-the-docs {
-  color: #888;
+:root {
+  --Background-color: black;
+  --Color: white;
+}
+.Dark-Theme {
+  --Background-color: black;
+  --Color: white;
+  --Grey: rgba(128, 128, 128, 0.226);
+}
+.Light-Theme {
+  --Background-color: white;
+  --Color: black;
+  --Grey: rgba(0, 0, 0, 0.45);
+}
+.App {
+  background-color: var(--Background-color);
+  color: var(--Color);
+  font-family: 'Instrument Serif', serif;
+  font-size: 18px;
+  height: 100%;
+}
+#Header {
+  box-shadow: 0px 5px 15px rgba(88, 87, 87, 0.425);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.HeaderScroll {
+  background-color: rgba(88, 87, 87);
+  color: white;
+  z-index: 2;
+}
+#Button {
+  background-color: var(--Color) ;
+  color: var(--Background-color);
 }
