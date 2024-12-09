@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+html::-webkit-scrollbar {
+  width: 0.8rem;
+}
+html::-webkit-scrollbar-thumb {
+  background-color:white;
+}
+html::-webkit-scrollbar-track {
+  background-color: black;
+}
+body {
+  font-family: 'Instrument Serif', serif;
+  font-size: 18px;
+}
+:root {
+  --Background-color: black;
+  --Color: white;
+}
+.Dark-Theme {
+  --Background-color: black;
+  --Color: white;
+  --Grey: rgba(128, 128, 128, 0.226);
+}
+.Light-Theme {
+  --Background-color: white;
+  --Color: black;
+  --Grey: rgba(0, 0, 0, 0.45);
+}
+.App {
+  background-color: var(--Background-color);
+  color: var(--Color);
+  font-family: 'Instrument Serif', serif;
+  font-size: 18px;
+  height: 100%;
+}
+#Header {
+  box-shadow: 0px 5px 15px rgba(88, 87, 87, 0.425);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.HeaderScroll {
+  background-color: rgba(88, 87, 87);
+  color: white;
+  z-index: 2;
+}
+#Button {
+  background-color: var(--Color) ;
+  color: var(--Background-color);
+}
