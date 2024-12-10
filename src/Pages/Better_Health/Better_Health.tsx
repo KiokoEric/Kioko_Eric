@@ -1,7 +1,7 @@
-import 'swiper/css';
+import 'swiper.css';
 import React from 'react';
-import 'swiper/css/pagination';
-import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination.css';
+import 'swiper/css/effect-coverflow.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCoverflow, Pagination } from 'swiper/modules';
 import Home_Page from "../../assets/Better_Health/Home_Page.jpeg";
@@ -17,7 +17,7 @@ import Better_HealthVideo from "../../assets/Better_Health/Better_Health_Video.m
 const Better_Health: React.FC = () => {
 
     const Better_Health_Demo = () => {
-        window.open(`https://ebudget-1rfs.onrender.com`) 
+        window.open(`https://betterhealth-eight.vercel.app`) 
     }
 
     const Better_Health_Github = () => {
