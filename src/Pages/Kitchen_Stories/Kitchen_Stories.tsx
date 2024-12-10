@@ -4,16 +4,16 @@ import 'swiper/css/pagination';
 import 'swiper/css/effect-coverflow';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCoverflow, Pagination } from 'swiper/modules';
-import Home from "../../assets/Kitchen_Stories/HomePage.jpeg";
-import Login from "../../assets/Kitchen_Stories/LoginPage.jpeg";
-import Explore from "../../assets/Kitchen_Stories/ExplorePage.jpeg";
+import Home from "../../Assets/Kitchen_Stories/HomePage.jpeg";
+import Login from "../../Assets/Kitchen_Stories/LoginPage.jpeg";
+import Explore from "../../Assets/Kitchen_Stories/ExplorePage.jpeg";
 import Details from '../../Components/Common/Project_Details/Details';
-import My_Recipes from "../../assets//Kitchen_Stories/My_Recipes.jpeg";
-import Create_Recipe from "../../assets/Kitchen_Stories/CreatePage.jpeg";
-import Favourites from "../../assets/Kitchen_Stories/FavouritesPage.jpeg";
-import Categories from "../../assets/Kitchen_Stories/CategoriesPage.jpeg";
-import Nationality from "../../assets/Kitchen_Stories/NationalitiesPage.jpeg";
-import KitchenStoriesVideo from "../../assets/Kitchen_Stories/KitchenStories_Video.mp4";
+import My_Recipes from "../../Assets//Kitchen_Stories/My_Recipes.jpeg";
+import Create_Recipe from "../../Assets/Kitchen_Stories/CreatePage.jpeg";
+import Favourites from "../../Assets/Kitchen_Stories/FavouritesPage.jpeg";
+import Categories from "../../Assets/Kitchen_Stories/CategoriesPage.jpeg";
+import Nationality from "../../Assets/Kitchen_Stories/NationalitiesPage.jpeg";
+import KitchenStoriesVideo from "../../Assets/Kitchen_Stories/KitchenStories_Video.mp4";
 
 const Kitchen_Stories: React.FC = () => {
 

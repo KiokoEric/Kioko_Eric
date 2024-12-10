@@ -4,15 +4,15 @@ import 'swiper/css/pagination';
 import 'swiper/css/effect-coverflow';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCoverflow, Pagination } from 'swiper/modules';
-import Home_Page from "../../assets/Better_Health/Home_Page.jpeg";
-import Create_Page from "../../assets/Better_Health/Create_Page.jpeg";
+import Home_Page from "../../Assets/Better_Health/Home_Page.jpeg";
+import Create_Page from "../../Assets/Better_Health/Create_Page.jpeg";
 import Details from '../../Components/Common/Project_Details/Details';
-import Fitness_Page from "../../assets/Better_Health/Fitness_Page.jpeg";
-import Exercise_Page from "../../assets/Better_Health/Exercise_Page.jpeg";
-import Nutrition_Page from "../../assets/Better_Health/Nutrition_Page.jpeg";
-import MyWorkouts_Page from "../../assets/Better_Health/MyWorkouts_Page.jpeg";
-import Favourites_Page from "../../assets/Better_Health/Favourites_Page.jpeg";
-import Better_HealthVideo from "../../assets/Better_Health/Better_Health_Video.mp4";
+import Fitness_Page from "../../Assets/Better_Health/Fitness_Page.jpeg";
+import Exercise_Page from "../../Assets/Better_Health/Exercise_Page.jpeg";
+import Nutrition_Page from "../../Assets/Better_Health/Nutrition_Page.jpeg";
+import MyWorkouts_Page from "../../Assets/Better_Health/MyWorkouts_Page.jpeg";
+import Favourites_Page from "../../Assets/Better_Health/Favourites_Page.jpeg";
+import Better_HealthVideo from "../../Assets/Better_Health/Better_Health_Video.mp4";
 
 const Better_Health: React.FC = () => {
 

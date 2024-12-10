@@ -1,10 +1,10 @@
 import React from 'react';
-import Educate from '../../assets/Educate/HomePage.jpeg';
-import EBudget from "../../assets/EBudget/Dashboard.jpeg";
-import Itrack from "../../assets/Itrack/All_Tickets.jpeg";
+import Educate from '../../Assets/Educate/HomePage.jpeg';
+import EBudget from "../../Assets/EBudget/Dashboard.jpeg";
+import Itrack from "../../Assets/Itrack/All_Tickets.jpeg";
 import Project from '../../Components/Common/Project/Project';
-import Better_Health from "../../assets/Better_Health/Home_Page.jpeg";
-import Kitchen_Stories from "../../assets/Kitchen_Stories/HomePage.jpeg";
+import Better_Health from "../../Assets/Better_Health/Home_Page.jpeg";
+import Kitchen_Stories from "../../Assets/Kitchen_Stories/HomePage.jpeg";
 
 const Projects: React.FC = () => {
 return (

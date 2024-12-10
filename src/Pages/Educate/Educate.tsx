@@ -3,14 +3,14 @@ import React from 'react';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-coverflow';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Login from "../../assets/Educate/Login.jpg";
-import Home_Page from "../../assets/Educate/HomePage.jpeg";
+import Login from "../../Assets/Educate/Login.jpg";
+import Home_Page from "../../Assets/Educate/HomePage.jpeg";
 import { EffectCoverflow, Pagination } from 'swiper/modules';
-import My_Quizzes from "../../assets/Educate/My_Quizzes.jpeg";
-import Create_Page from "../../assets/Educate/Create_Page.jpeg";
-import EducateVideo from "../../assets/Educate/Educate_Video.mp4";
-import Question_Page from "../../assets/Educate/Question_Page.jpeg";
-import Quiz_Settings from "../../assets/Educate/Quiz_Settings.jpeg";
+import My_Quizzes from "../../Assets/Educate/My_Quizzes.jpeg";
+import Create_Page from "../../Assets/Educate/Create_Page.jpeg";
+import EducateVideo from "../../Assets/Educate/Educate_Video.mp4";
+import Question_Page from "../../Assets/Educate/Question_Page.jpeg";
+import Quiz_Settings from "../../Assets/Educate/Quiz_Settings.jpeg";
 import Details from '../../Components/Common/Project_Details/Details';
 
 const Educate: React.FC = () => {

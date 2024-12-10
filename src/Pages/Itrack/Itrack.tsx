@@ -3,18 +3,18 @@ import React from 'react';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-coverflow';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import DashBoard from "../../assets/Itrack/DashBoard.jpeg";
-import My_Tickets from "../../assets/Itrack/My_Tickets.jpeg";
+import DashBoard from "../../Assets/Itrack/DashBoard.jpeg";
+import My_Tickets from "../../Assets/Itrack/My_Tickets.jpeg";
 import { EffectCoverflow, Pagination } from 'swiper/modules';
-import All_Tickets from "../../assets/Itrack/All_Tickets.jpeg";
-import ItrackVideo from "../../assets/Itrack/Itrack_Video.mp4";
-import My_Projects from "../../assets/Itrack/My_Projects.jpeg";
-import All_Projects from "../../assets/Itrack/All_Projects.jpeg";
-import Create_Ticket from "../../assets/Itrack/Create_Ticket.jpeg";
-import Create_Project from "../../assets/Itrack/Create_Project.jpeg";
+import All_Tickets from "../../Assets/Itrack/All_Tickets.jpeg";
+import ItrackVideo from "../../Assets/Itrack/Itrack_Video.mp4";
+import My_Projects from "../../Assets/Itrack/My_Projects.jpeg";
+import All_Projects from "../../Assets/Itrack/All_Projects.jpeg";
+import Create_Ticket from "../../Assets/Itrack/Create_Ticket.jpeg";
+import Create_Project from "../../Assets/Itrack/Create_Project.jpeg";
 import Details from '../../Components/Common/Project_Details/Details';
-import Archived_Tickets from "../../assets/Itrack/Archived_Projects.jpeg";
-import Archived_Projects from "../../assets/Itrack/Archived_Projects.jpeg";
+import Archived_Tickets from "../../Assets/Itrack/Archived_Projects.jpeg";
+import Archived_Projects from "../../Assets/Itrack/Archived_Projects.jpeg";
 
 const Itrack: React.FC = () => {
 

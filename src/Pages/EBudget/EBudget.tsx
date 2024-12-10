@@ -3,14 +3,14 @@ import React from 'react';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-coverflow';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Income from "../../assets/EBudget/IncomePage.jpeg";
-import Expense from "../../assets/EBudget/ExpensePage.jpeg";
-import Savings from "../../assets/EBudget/SavingsPage.jpeg";
-import DashBoard from "../../assets/EBudget/Dashboard.jpeg";
+import Income from "../../Assets/EBudget/IncomePage.jpeg";
+import Expense from "../../Assets/EBudget/ExpensePage.jpeg";
+import Savings from "../../Assets/EBudget/SavingsPage.jpeg";
+import DashBoard from "../../Assets/EBudget/Dashboard.jpeg";
 import { EffectCoverflow, Pagination } from 'swiper/modules';
-import EBudgetVideo from "../../assets/EBudget/EBudget - Video.mp4";
+import EBudgetVideo from "../../Assets/EBudget/EBudget - Video.mp4";
 import Details from '../../Components/Common/Project_Details/Details';
-import LoanCalculator from "../../assets/EBudget/Loan_Calculator.jpeg";
+import LoanCalculator from "../../Assets/EBudget/Loan_Calculator.jpeg";
 
 const EBudget: React.FC = () => {
 
