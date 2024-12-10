@@ -1,7 +1,7 @@
-import 'swiper/css';
+import 'swiper.css';
 import React from 'react';
-import 'swiper/css/pagination';
-import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination.css';
+import 'swiper/css/effect-coverflow.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Income from "../../assets/EBudget/IncomePage.jpeg";
 import Expense from "../../assets/EBudget/ExpensePage.jpeg";
@@ -15,7 +15,7 @@ import LoanCalculator from "../../assets/EBudget/Loan_Calculator.jpeg";
 const EBudget: React.FC = () => {
 
     const EBudget_Demo = () => {
-        window.open(`https://ebudget-1rfs.onrender.com`) 
+        window.open(`https://ebudget-delta.vercel.app`) 
     }
 
     const EBudget_Github = () => {
