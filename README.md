@@ -17,7 +17,7 @@ The website application was built using React JS
   <h3 align="center" >Home Section</h3>
 
   <div align="center" >
-    <img  src="https://i.postimg.cc/Gtq1Qsvp/Eric-Kioko-Portfolio-Website.jpg"> 
+    <img  src="https://i.postimg.cc/qqm9nHdh/Eric-Kioko-Portfolio-Website.jpg"> 
 
   </div>
 
