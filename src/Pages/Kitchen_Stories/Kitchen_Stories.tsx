@@ -1,7 +1,7 @@
-import 'swiper/css';
+import 'swiper.css';
 import React from 'react';
-import 'swiper/css/pagination';
-import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination.css';
+import 'swiper/css/effect-coverflow.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCoverflow, Pagination } from 'swiper/modules';
 import Home from "../../assets/Kitchen_Stories/HomePage.jpeg";
@@ -18,7 +18,7 @@ import KitchenStoriesVideo from "../../assets/Kitchen_Stories/KitchenStories_Vid
 const Kitchen_Stories: React.FC = () => {
 
     const Kitchen_Stories_Demo = () => {
-        window.open(`https://ebudget-1rfs.onrender.com`) 
+        window.open(`https://kitchenstories-ten.vercel.app`) 
     }
 
     const Kitchen_Stories_Github = () => {
