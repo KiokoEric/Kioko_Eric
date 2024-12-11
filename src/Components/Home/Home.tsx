@@ -3,7 +3,7 @@ import Button from '../Common/Button/Button';
 import { MdWavingHand } from "react-icons/md";
 import Heading from '../Common/Heading/Heading';
 import HomeImage from "../../Assets/Home/Eric_Kioko.jpg";
-import Resume from "../../Assets/Documents/Eric_Kioko.pdf"; 
+import Resume from "../../Assets/Documents/Eric Kioko.pdf"; 
 
 const Home: React.FC = () => {
 
