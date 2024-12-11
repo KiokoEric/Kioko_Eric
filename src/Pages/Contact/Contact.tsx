@@ -53,7 +53,7 @@ return (
             </div>
             <textarea placeholder='Enter Message' id="Message" {...register("Message")} className='border-b border-black h-40 mt-2 outline-none p-3 rounded-sm text-black w-80 sm:w-tablet lg:w-contact'></textarea>
             <span className="text-red-700 text-center">{errors.Message?.message}</span>
-            <p className='Success' >{Success}</p>
+            <p className='text-green-700'>{Success}</p>
             <Button
                 ID='Button'
                 onClick={handleSubmit(onSubmit)}
