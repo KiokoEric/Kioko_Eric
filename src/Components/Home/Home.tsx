@@ -23,7 +23,7 @@ return (
                 Heading='Hello, My Name is Eric Kioko'
                 Children={<span className='ml-1'><MdWavingHand size="1.8rem"/></span>}
                 FirstStyle='text-center text-lg sm:text-xl sm:text-left'
-                FirstText='I am a FrontEnd Web Developer based in Nairobi, Kenya. I am a passionate and enthusiastic software developer with a passion for crafting clean, efficient, and user-friendly software solutions.'
+                FirstText='I am a Full Stack Web Developer based in Nairobi, Kenya. I am a passionate and enthusiastic software developer with a passion for crafting clean, efficient, and user-friendly software solutions.'
             />
             <Button
                 ID='Button'
