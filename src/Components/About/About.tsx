@@ -13,7 +13,7 @@ return (
             HeadingStyle='font-bold text-3xl text-center xl:text-left'
             Heading='About Me'
             FirstStyle='text-center text-lg xl:text-justify'
-            FirstText='I discovered a love for web development 2 years ago when I enrolled in a 2 week Javascript boot camp. I was greatly captivated by the idea presented by the teachers who highlighted all the possibilities that could be achieved through web development. After the boot camp, I began a self-taught web development journey which saw me progress through tutorials, books and mentorship. In these 2 years, I have developed myself as a front end software developer with real-world projects. I am excited to venture into a career as a front end developer where I can contribute to enhancing a user’s web experience.'
+            FirstText='I discovered a love for web development 2 years ago when I enrolled in a 2 week Javascript boot camp. I was greatly captivated by the idea presented by the teachers who highlighted all the possibilities that could be achieved through web development. After the boot camp, I began a self-taught web development journey which saw me progress through tutorials, books and mentorship. In these 2 years, I have developed myself as a full-stack software developer with real-world projects. I am excited to venture into a career as a full-stack developer where I can contribute to enhancing a user’s web experience.'
         />
         <section className='border-t border-Grey flex flex-col items-center gap-3 pt-8 xl:items-start'>
             <Information
